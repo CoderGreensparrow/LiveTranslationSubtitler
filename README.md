@@ -1,7 +1,9 @@
 # LiveWhisperSubtitler
 Combining technologies from here and there, this project is about semi-live (actually, live with a delay) translated subtitles over live content.
 
-(The) idea(s):
+---
+
+## (The) idea(s):
 
 1. Use some way to know when to start and end a chunk for Whisper.
 2. Use Whisper by OpenAI in a way where it transcribes semi-live (live with a delay/delays).
@@ -18,3 +20,7 @@ If a user wouldn't want to delay the original content, here's another system:
 4. The subtitles are placed over the content regardless of time information from Whisper. As new translations are created, the subtitles change. The video and audio content is not delayed on purpose. The subtitles will be delayed due to the system working the way it does.
 
 These two could be implemented as two modes of the same software.
+
+---
+
+Check out https://patrikzudel.me/ai-subtitles
